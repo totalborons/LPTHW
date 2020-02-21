@@ -1,0 +1,6 @@
+print("Hello world")
+print("Hello Again motherfucker")
+print("I like typing this.")
+print('Yaya!! Printing')
+print("I'd rather say you do not say 'that'")
+print('This is the example of quotation "nesting"')
