@@ -1,22 +1,25 @@
-people = 20
-cats = 30
-dogs = 15
-if people < cats:
-    print("Too many cats... doomed is this world")
-if people > cats:
-    print("Well cats are not dominating the world")
-if people > dogs:
-    print("The world is dry")
-if people < dogs:
-    print("The world is drooled with happiness")
+# this is using the else if statement which is written here as elif....
+people = 30
+cars = 40
+trucks = 15
 
-dogs += 5
-# this incremental thing works like in java.....
+if cars > people:
+    print("We should take cars")
+elif cars < people:
+    print("We should not take cars")
+else:
+    print("We can't decide")
 
-if people >= dogs:
-    print("The people are greater than or equal to dogs")
-if people <= dogs:
-    print("The people are less than or equal to dogs")
+if trucks > cars:
+    print("Thats too many trucks")
+elif trucks < cars:
+    print("We can take the trucks")
+else:
+    print("W still can't decide")
 
-if people == dogs:
-    print("The people are equal to the dogs")
+if people > trucks:
+    print("Alright lets just take the trucks")
+else:
+    print("Alright lets just stay at home..")
+
+    # the logics doesn't make sense here.. its just a simple exercise for it....
